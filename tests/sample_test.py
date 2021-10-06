@@ -1,5 +1,5 @@
 import pytest
-from sampleproject.sampleproject import LikeState, slap_many
+from sampleproject.main import LikeState, slap_many
 
 # we feed in the names of the parameters for the function we are creating multiple test cases for
 @pytest.mark.parametrize("test_input, expected", [
